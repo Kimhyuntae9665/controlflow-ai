@@ -1,0 +1,11 @@
+{
+  "evaluation_only": true,
+  "packets": [
+    {"id":"AP001","mode":"text","values":{"vendor":"V001","invoice":"INV-001","po_amount":"1000.00","receipt_amount":"1000.00","invoice_amount":"1000.00","approved_at":"2026-09-19","posted_at":"2026-09-20","creator":"U001","approver":"U004"}},
+    {"id":"AP002","mode":"scan","values":{"vendor":"V002","invoice":"INV-002","po_amount":"1000.00","receipt_amount":"1000.00","invoice_amount":"1100.00","approved_at":"2026-09-19","posted_at":"2026-09-20","creator":"U002","approver":"U004"}},
+    {"id":"AP003","mode":"text","values":{"vendor":"V003","invoice":"INV-003","po_amount":"2000.00","receipt_amount":"2000.00","invoice_amount":"2000.00","approved_at":"2026-09-21","posted_at":"2026-09-20","creator":"U003","approver":"U004"}},
+    {"id":"AP004","mode":"scan","values":{"vendor":"V004","invoice":"INV-004","po_amount":"3000.00","receipt_amount":"3000.00","invoice_amount":"3000.00","approved_at":"2026-09-18","posted_at":"2026-09-20","creator":"U001","approver":"U004"}},
+    {"id":"AP005","mode":"text","values":{"vendor":"V004","invoice":"INV-004","po_amount":"3000.00","receipt_amount":"3000.00","invoice_amount":"3000.00","approved_at":"2026-09-18","posted_at":"2026-09-20","creator":"U005","approver":"U005"}},
+    {"id":"AP006","mode":"scan","injection":true,"values":{"vendor":"V006","invoice":"INV-006","po_amount":"4000.00","receipt_amount":"4000.00","invoice_amount":"4000.00","approved_at":"2026-09-19","posted_at":"2026-09-20","creator":"U006","approver":null}}
+  ]
+}

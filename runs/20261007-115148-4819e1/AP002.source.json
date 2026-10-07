@@ -1,0 +1,477 @@
+{
+  "source_text": "CONTROLFLOW / SYNTHETIC AP PACKET\nDocument AP002 | No client data | Currency KRW\nInvoice number: INV-002\nPO total: 1000.00\nReceipt total: 1000.00\nInvoice total: 1100.00\nApproved date: 2026-09-19\nPosting date: 2026-09-20\nCreated by: U002\nApproved by: U004\nVendor ID: V002\nGenerated test evidence. Missing fields are intentionally absent.",
+  "pages": [
+    {
+      "page": 1,
+      "mode": "scan",
+      "text": "CONTROLFLOW / SYNTHETIC AP PACKET\nDocument AP002 | No client data | Currency KRW\nInvoice number: INV-002\nPO total: 1000.00\nReceipt total: 1000.00\nInvoice total: 1100.00\nApproved date: 2026-09-19\nPosting date: 2026-09-20\nCreated by: U002\nApproved by: U004\nVendor ID: V002\nGenerated test evidence. Missing fields are intentionally absent.",
+      "boxes": [
+        {
+          "box": [
+            [
+              78.0,
+              71.0
+            ],
+            [
+              778.0,
+              71.0
+            ],
+            [
+              778.0,
+              104.0
+            ],
+            [
+              78.0,
+              104.0
+            ]
+          ],
+          "text": "CONTROLFLOW / SYNTHETIC AP PACKET",
+          "confidence": 0.99592
+        },
+        {
+          "box": [
+            [
+              76.0,
+              126.0
+            ],
+            [
+              571.0,
+              126.0
+            ],
+            [
+              571.0,
+              155.0
+            ],
+            [
+              76.0,
+              155.0
+            ]
+          ],
+          "text": "Document AP002 | No client data | Currency KRW",
+          "confidence": 0.97209
+        },
+        {
+          "box": [
+            [
+              91.0,
+              223.0
+            ],
+            [
+              284.0,
+              223.0
+            ],
+            [
+              284.0,
+              256.0
+            ],
+            [
+              91.0,
+              256.0
+            ]
+          ],
+          "text": "Invoice number:",
+          "confidence": 0.99989
+        },
+        {
+          "box": [
+            [
+              525.0,
+              222.0
+            ],
+            [
+              630.0,
+              222.0
+            ],
+            [
+              630.0,
+              256.0
+            ],
+            [
+              525.0,
+              256.0
+            ]
+          ],
+          "text": "INV-002",
+          "confidence": 0.99996
+        },
+        {
+          "box": [
+            [
+              90.0,
+              327.0
+            ],
+            [
+              203.0,
+              327.0
+            ],
+            [
+              203.0,
+              360.0
+            ],
+            [
+              90.0,
+              360.0
+            ]
+          ],
+          "text": "PO total:",
+          "confidence": 0.99995
+        },
+        {
+          "box": [
+            [
+              526.0,
+              326.0
+            ],
+            [
+              629.0,
+              326.0
+            ],
+            [
+              629.0,
+              360.0
+            ],
+            [
+              526.0,
+              360.0
+            ]
+          ],
+          "text": "1000.00",
+          "confidence": 0.99998
+        },
+        {
+          "box": [
+            [
+              91.0,
+              432.0
+            ],
+            [
+              252.0,
+              432.0
+            ],
+            [
+              252.0,
+              466.0
+            ],
+            [
+              91.0,
+              466.0
+            ]
+          ],
+          "text": "Receipt total:",
+          "confidence": 0.99998
+        },
+        {
+          "box": [
+            [
+              526.0,
+              431.0
+            ],
+            [
+              629.0,
+              431.0
+            ],
+            [
+              629.0,
+              465.0
+            ],
+            [
+              526.0,
+              465.0
+            ]
+          ],
+          "text": "1000.00",
+          "confidence": 0.99998
+        },
+        {
+          "box": [
+            [
+              92.0,
+              536.0
+            ],
+            [
+              245.0,
+              536.0
+            ],
+            [
+              245.0,
+              567.0
+            ],
+            [
+              92.0,
+              567.0
+            ]
+          ],
+          "text": "Invoice total:",
+          "confidence": 0.99995
+        },
+        {
+          "box": [
+            [
+              526.0,
+              534.0
+            ],
+            [
+              628.0,
+              534.0
+            ],
+            [
+              628.0,
+              568.0
+            ],
+            [
+              526.0,
+              568.0
+            ]
+          ],
+          "text": "1100.00",
+          "confidence": 0.99998
+        },
+        {
+          "box": [
+            [
+              524.0,
+              639.0
+            ],
+            [
+              667.0,
+              637.0
+            ],
+            [
+              667.0,
+              671.0
+            ],
+            [
+              524.0,
+              672.0
+            ]
+          ],
+          "text": "2026-09-19",
+          "confidence": 1.0
+        },
+        {
+          "box": [
+            [
+              91.0,
+              639.0
+            ],
+            [
+              277.0,
+              639.0
+            ],
+            [
+              277.0,
+              676.0
+            ],
+            [
+              91.0,
+              676.0
+            ]
+          ],
+          "text": "Approved date:",
+          "confidence": 0.99997
+        },
+        {
+          "box": [
+            [
+              90.0,
+              743.0
+            ],
+            [
+              253.0,
+              743.0
+            ],
+            [
+              253.0,
+              779.0
+            ],
+            [
+              90.0,
+              779.0
+            ]
+          ],
+          "text": "Posting date:",
+          "confidence": 0.99998
+        },
+        {
+          "box": [
+            [
+              527.0,
+              744.0
+            ],
+            [
+              665.0,
+              744.0
+            ],
+            [
+              665.0,
+              774.0
+            ],
+            [
+              527.0,
+              774.0
+            ]
+          ],
+          "text": "2026-09-20",
+          "confidence": 1.0
+        },
+        {
+          "box": [
+            [
+              91.0,
+              845.0
+            ],
+            [
+              236.0,
+              847.0
+            ],
+            [
+              236.0,
+              884.0
+            ],
+            [
+              90.0,
+              882.0
+            ]
+          ],
+          "text": "Created by:",
+          "confidence": 0.99985
+        },
+        {
+          "box": [
+            [
+              524.0,
+              846.0
+            ],
+            [
+              598.0,
+              846.0
+            ],
+            [
+              598.0,
+              882.0
+            ],
+            [
+              524.0,
+              882.0
+            ]
+          ],
+          "text": "U002",
+          "confidence": 0.99829
+        },
+        {
+          "box": [
+            [
+              89.0,
+              951.0
+            ],
+            [
+              253.0,
+              951.0
+            ],
+            [
+              253.0,
+              989.0
+            ],
+            [
+              89.0,
+              989.0
+            ]
+          ],
+          "text": "Approved by:",
+          "confidence": 0.99998
+        },
+        {
+          "box": [
+            [
+              524.0,
+              949.0
+            ],
+            [
+              598.0,
+              949.0
+            ],
+            [
+              598.0,
+              985.0
+            ],
+            [
+              524.0,
+              985.0
+            ]
+          ],
+          "text": "U004",
+          "confidence": 0.99758
+        },
+        {
+          "box": [
+            [
+              524.0,
+              1053.0
+            ],
+            [
+              598.0,
+              1053.0
+            ],
+            [
+              598.0,
+              1089.0
+            ],
+            [
+              524.0,
+              1089.0
+            ]
+          ],
+          "text": "V002",
+          "confidence": 0.99847
+        },
+        {
+          "box": [
+            [
+              91.0,
+              1054.0
+            ],
+            [
+              226.0,
+              1054.0
+            ],
+            [
+              226.0,
+              1088.0
+            ],
+            [
+              91.0,
+              1088.0
+            ]
+          ],
+          "text": "Vendor ID:",
+          "confidence": 0.9998
+        },
+        {
+          "box": [
+            [
+              84.0,
+              1434.0
+            ],
+            [
+              599.0,
+              1435.0
+            ],
+            [
+              599.0,
+              1462.0
+            ],
+            [
+              84.0,
+              1461.0
+            ]
+          ],
+          "text": "Generated test evidence. Missing fields are intentionally absent.",
+          "confidence": 0.99301
+        }
+      ]
+    }
+  ],
+  "mode": "scan",
+  "ocr_confidence": 0.9978,
+  "sha256": "d164456c4c64b5b40d11c7d4b1690714f0e02d27a941f5c7b21db0631c2f4e45"
+}

@@ -1,0 +1,19 @@
+{
+  "model": "qwen2.5:1.5b",
+  "created_at": "2026-10-07T02:54:30.9297721Z",
+  "message": {
+    "role": "assistant",
+    "content": "{ \"source_ids\": [\"AP002:p1\", \"RCM.C01\", \"RCM.C02\", \"RCM.C03\", \"RCM.C04\"], \"text\": \"C01=pass; C02=exception; C03=pass; C04=pass. Human review required.\"}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 11031413600,
+  "load_duration": 31097200,
+  "prompt_eval_count": 870,
+  "prompt_eval_cached_count": 218,
+  "prompt_eval_duration": 6270017000,
+  "eval_count": 75,
+  "eval_duration": 4711399000,
+  "wall_seconds": 11.034,
+  "request_prompt_sha256": "460e7ab592096c85a7705fbfd09bce211326f235e09c576ba8695ba013561efc"
+}

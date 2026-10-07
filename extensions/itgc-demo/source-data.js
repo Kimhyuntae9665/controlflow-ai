@@ -1,0 +1,47 @@
+window.ITGC_SOURCE = {
+  "scope": "synthetic_korean_text_pdf_deterministic_label_extraction",
+  "source_file": "퇴사자_계정_회수_확인서.pdf",
+  "sha256": "7d667d3430e1bdb880f48f7fee9b765322b837fc4e8e787214343d13f49313a3",
+  "extraction": "PyMuPDF text layer + exact label regex + quoted text verification",
+  "ocr_used": false,
+  "llm_used": false,
+  "fields": {
+    "employee_id": {
+      "label": "Employee ID",
+      "value": "DEMO-EMP-001",
+      "quote": "Employee ID: DEMO-EMP-001",
+      "page": 1
+    },
+    "account_id": {
+      "label": "Account ID",
+      "value": "DEMO-ACCOUNT-001",
+      "quote": "Account ID: DEMO-ACCOUNT-001",
+      "page": 1
+    },
+    "departure_at": {
+      "label": "퇴사 시각",
+      "value": "2026-10-01 09:00 KST",
+      "quote": "퇴사 시각: 2026-10-01 09:00 KST",
+      "page": 1
+    },
+    "revocation_at": {
+      "label": "회수 시각",
+      "value": "2026-10-01 21:00 KST",
+      "quote": "회수 시각: 2026-10-01 21:00 KST",
+      "page": 1
+    },
+    "account_status": {
+      "label": "계정 상태",
+      "value": "비활성",
+      "quote": "계정 상태: 비활성",
+      "page": 1
+    }
+  },
+  "baseline": {
+    "delayHours": 12.0,
+    "limitHours": 24,
+    "accountActive": false,
+    "evidenceMissing": false
+  },
+  "text": "퇴사자 계정 회수 확인서\n합성 데이터 · 실제 직원 / 고객 / ERP 데이터 아님\nEmployee ID: DEMO-EMP-001\nAccount ID: DEMO-ACCOUNT-001\n퇴사 시각: 2026-10-01 09:00 KST\n회수 시각: 2026-10-01 21:00 KST\n계정 상태: 비활성\n작성 목적: IT 일반통제의 퇴사자 접근권한 회수 점검 실험\n본 문서는 텍스트형 PDF이며 OCR 또는 LLM 평가 자료가 아닙니다.\n허용시간 24시간은 데모 가정입니다. 법률 / 회사 규정이 아닙니다.\n"
+};

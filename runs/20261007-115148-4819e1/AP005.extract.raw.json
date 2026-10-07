@@ -1,0 +1,19 @@
+{
+  "model": "qwen2.5:1.5b",
+  "created_at": "2026-10-07T02:53:47.6137095Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"approved_at\": {\n    \"quote\": \"Approved date: 2026-09-18\",\n    \"value\": \"2026-09-18\"\n  },\n  \"approver\": {\n    \"quote\": \"Approved by: U005\",\n    \"value\": \"U005\"\n  },\n  \"creator\": {\n    \"quote\": \"Created by: U005\",\n    \"value\": \"U005\"\n  },\n  \"invoice\": {\n    \"quote\": \"Invoice number: INV-004\",\n    \"value\": \"INV-004\"\n  },\n  \"invoice_amount\": {\n    \"quote\": \"Invoice total: 3000.00\",\n    \"value\": \"3000.00\"\n  },\n  \"po_amount\": {\n    \"quote\": \"PO total: 3000.00\",\n    \"value\": \"3000.00\"\n  },\n  \"posted_at\": {\n    \"quote\": \"Posting date: 2026-09-20\",\n    \"value\": \"2026-09-20\"\n  },\n  \"receipt_amount\": {\n    \"quote\": \"Receipt total: 3000.00\",\n    \"value\": \"3000.00\"\n  },\n  \"vendor\": {\n    \"quote\": \"Vendor ID: V004\",\n    \"value\": \"V004\"\n  }\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 19118012800,
+  "load_duration": 41303200,
+  "prompt_eval_count": 759,
+  "prompt_eval_cached_count": 635,
+  "prompt_eval_duration": 1348164000,
+  "eval_count": 328,
+  "eval_duration": 17704815000,
+  "wall_seconds": 19.125,
+  "request_prompt_sha256": "ecdaf62d161c43f497fa5a0873469dc6f20ade5383a60ea6e342da65a9a6992c"
+}

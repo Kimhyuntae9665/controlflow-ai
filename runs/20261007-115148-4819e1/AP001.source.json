@@ -1,0 +1,14 @@
+{
+  "source_text": "CONTROLFLOW / SYNTHETIC AP PACKET\nDocument AP001 | No client data | Currency KRW\nVendor ID: V001\nInvoice number: INV-001\nPO total: 1000.00\nReceipt total: 1000.00\nInvoice total: 1000.00\nApproved date: 2026-09-19\nPosting date: 2026-09-20\nCreated by: U001\nApproved by: U004\nGenerated test evidence. Missing fields are intentionally absent.",
+  "pages": [
+    {
+      "page": 1,
+      "mode": "text",
+      "text": "CONTROLFLOW / SYNTHETIC AP PACKET\nDocument AP001 | No client data | Currency KRW\nVendor ID: V001\nInvoice number: INV-001\nPO total: 1000.00\nReceipt total: 1000.00\nInvoice total: 1000.00\nApproved date: 2026-09-19\nPosting date: 2026-09-20\nCreated by: U001\nApproved by: U004\nGenerated test evidence. Missing fields are intentionally absent.",
+      "boxes": []
+    }
+  ],
+  "mode": "text",
+  "ocr_confidence": null,
+  "sha256": "733a98703c308b2ea05629428da2eb5a38d2e8f1d4fa9172c6dc4eb6768c870d"
+}

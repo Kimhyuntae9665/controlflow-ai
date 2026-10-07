@@ -1,0 +1,143 @@
+{
+  "run_id": "20261007-115148-4819e1",
+  "checked_at": "2026-10-07T02:56:28.589377+00:00",
+  "checks": {
+    "raw_call_count_matches": true,
+    "raw_all_real_completed": true,
+    "raw_input_tokens_match": true,
+    "raw_output_tokens_match": true,
+    "source_fingerprint_current": true,
+    "result_fingerprint_current": true,
+    "pdf_hashes_match": true,
+    "all_drafts_verified": true
+  },
+  "raw_responses": [
+    {
+      "file": "AP001.draft.raw.json",
+      "sha256": "657616feaabeca178c4f221d1d00705bb529c15b2f87db1ee5f5644e55cbc636",
+      "done": true,
+      "model": "qwen2.5:1.5b",
+      "prompt_tokens": 868,
+      "output_tokens": 67,
+      "prompt_sha256": "33f17cb9bce56a74ab85abe9595b774f433fa7bd9e074aef4557a47b7d772403"
+    },
+    {
+      "file": "AP001.extract.raw.json",
+      "sha256": "ea84be9a27977525a5e6fbdbe849794cdf8fb768e412a69bfe8590a7072bf796",
+      "done": true,
+      "model": "qwen2.5:1.5b",
+      "prompt_tokens": 759,
+      "output_tokens": 328,
+      "prompt_sha256": "a7536ac40336fec9697be949b1b2c404fa760f578124f0b9222e7b7934058b4e"
+    },
+    {
+      "file": "AP002.draft.raw.json",
+      "sha256": "1cc8dfda5427aeda4129b22b6098764374902b320ba7e8ce1d16c57e6246ac7c",
+      "done": true,
+      "model": "qwen2.5:1.5b",
+      "prompt_tokens": 870,
+      "output_tokens": 75,
+      "prompt_sha256": "460e7ab592096c85a7705fbfd09bce211326f235e09c576ba8695ba013561efc"
+    },
+    {
+      "file": "AP002.extract.raw.json",
+      "sha256": "6a56716ea96f56e8697d29b128ac20f22871ecb2897470e2e25642a4b3d9323b",
+      "done": true,
+      "model": "qwen2.5:1.5b",
+      "prompt_tokens": 759,
+      "output_tokens": 328,
+      "prompt_sha256": "6ce3ddd496bebff32a629691dfb7638cf9b2961e3e697bf53ee37d145c846ed6"
+    },
+    {
+      "file": "AP003.draft.raw.json",
+      "sha256": "de01ac1085cd9aa5718fbef82c4e3e26b5e40bcdaf6e973e5272636e6e00353c",
+      "done": true,
+      "model": "qwen2.5:1.5b",
+      "prompt_tokens": 923,
+      "output_tokens": 67,
+      "prompt_sha256": "2d43c3807a75d566d8f6cd5bcb48d735a520079b1a8bb48421960eda08ec3b0c"
+    },
+    {
+      "file": "AP003.extract.raw.json",
+      "sha256": "1805be0f3ea2af96d0ea027b995a32dc1e8b5c2dfffa5a8a9548742ca2936d63",
+      "done": true,
+      "model": "qwen2.5:1.5b",
+      "prompt_tokens": 813,
+      "output_tokens": 328,
+      "prompt_sha256": "7d66fc1ea7416e6e367c5d38707987d35650df749ecd7f7749c8e6845e7e6942"
+    },
+    {
+      "file": "AP004.draft.raw.json",
+      "sha256": "aa03b70d32a891fd8898f35e4f699ca8d089c2be1fe1ae04e593c905a4aaf117",
+      "done": true,
+      "model": "qwen2.5:1.5b",
+      "prompt_tokens": 873,
+      "output_tokens": 75,
+      "prompt_sha256": "619f87c85f6361f77c74d1d5b5bb89195bbd95ec8e15c73872ab4f9bf4f9265c"
+    },
+    {
+      "file": "AP004.extract.raw.json",
+      "sha256": "8d2e3f202028a28e8c8c8ee47430b81531b32506cedfb1682e48c81837d9bd5a",
+      "done": true,
+      "model": "qwen2.5:1.5b",
+      "prompt_tokens": 759,
+      "output_tokens": 328,
+      "prompt_sha256": "218ac24c63b3358e52949d16371c09b033ca07594b4774667080c42c3cfce174"
+    },
+    {
+      "file": "AP005.draft.raw.json",
+      "sha256": "71dff4f5dc1e3a265bfd370361af42cc85882d44f946eab2803392e0f650c37f",
+      "done": true,
+      "model": "qwen2.5:1.5b",
+      "prompt_tokens": 873,
+      "output_tokens": 75,
+      "prompt_sha256": "f75c725274f223921753415ca7b134451fdbdfc6aef209cc943013f29b6b8180"
+    },
+    {
+      "file": "AP005.extract.raw.json",
+      "sha256": "8522deb4f1a421190f2c81342d4bfb4af7a9236ad60ffde79c981ec68993e86a",
+      "done": true,
+      "model": "qwen2.5:1.5b",
+      "prompt_tokens": 759,
+      "output_tokens": 328,
+      "prompt_sha256": "ecdaf62d161c43f497fa5a0873469dc6f20ade5383a60ea6e342da65a9a6992c"
+    },
+    {
+      "file": "AP006.draft.raw.json",
+      "sha256": "49bd06a66d571499d07f2277d22aa3dedfdc8446fb037bdb3732168a3d0f2c19",
+      "done": true,
+      "model": "qwen2.5:1.5b",
+      "prompt_tokens": 1006,
+      "output_tokens": 67,
+      "prompt_sha256": "4c9f8b1f3c6869b9553cfab5d6ad67cbaf8fefb0293b3acc0b3f27e9024528fc"
+    },
+    {
+      "file": "AP006.extract.raw.json",
+      "sha256": "820ce7ae8dc9e4664d3bcaabc0082eb18f159b9a78b1cad0cfe06afbe3485219",
+      "done": true,
+      "model": "qwen2.5:1.5b",
+      "prompt_tokens": 817,
+      "output_tokens": 385,
+      "prompt_sha256": "2e8b9b8729aefa7057acd9d2af2a237caab2e1954c8bccae90b5d29246253f68"
+    }
+  ],
+  "source_fingerprint": "d17986a4a10430c7c64f10c708019a7130ccc8f2675be78e9ba59baa346b13fd",
+  "result_fingerprint": "0e20e0233f057f96d607b98fa07f2ef6fd4354245eddb9fa13f4ff84c776df03",
+  "digest": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+  "prompt_hash": "d8bd7ae74235633ce7dede3c20c847c12d706751aa55432981be26c03366de7d",
+  "metrics": {
+    "field_total": 54,
+    "field_correct": 54,
+    "field_accuracy": 1.0,
+    "expected_null_count": 1,
+    "wrong_fields": [],
+    "evaluation_scope": "6 synthetic packets / 54 fields, including one intentionally absent field; in-sample engineering check, not real-world accuracy",
+    "total_wall_seconds": 209.945,
+    "prompt_tokens": 10079,
+    "output_tokens": 2451,
+    "model_calls": 12,
+    "unsupported_field_count": 1,
+    "draft_unverified_count": 0
+  },
+  "review_records_not_modified": true
+}

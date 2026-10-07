@@ -1,0 +1,21 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const { baseline, evaluate, reset } = require('./controls.js');
+const extraction = JSON.parse(fs.readFileSync(path.join(__dirname, 'extracted.json'), 'utf8'));
+const result = [];
+function test(name, action) { action(); result.push({ name, status: 'pass' }); }
+test('한국어 PDF 5개 라벨과 직접 인용 검증', () => { for (const field of Object.values(extraction.fields)) { assert.ok(extraction.text.includes(field.quote)); assert.ok(field.quote.startsWith(field.label + ':')); } assert.equal(Object.keys(extraction.fields).length, 5); });
+test('24시간 경계 통과', () => assert.equal(evaluate({ ...baseline, delayHours: 24 }).checks[1].status, 'pass'));
+test('25시간 경계 예외', () => assert.equal(evaluate({ ...baseline, delayHours: 25 }).checks[1].status, 'exception'));
+test('활성 계정 I01 예외', () => assert.equal(evaluate({ ...baseline, accountActive: true }).checks[0].status, 'exception'));
+test('시각 증빙 누락 I02 미확인', () => assert.equal(evaluate({ ...baseline, evidenceMissing: true }).checks[1].status, 'unknown'));
+test('음수 지연 오류', () => assert.equal(evaluate({ ...baseline, delayHours: -1 }).valid, false));
+test('초기화 기준 12시간·비활성·완전 증빙', () => { const changed = { ...baseline, delayHours: 48, accountActive: true }; assert.deepEqual(evaluate(changed).counts, { pass: 0, exception: 2, unknown: 0 }); assert.deepEqual(evaluate(reset()).counts, { pass: 2, exception: 0, unknown: 0 }); });
+test('원본 PDF 기준과 시뮬레이션 기준 일치', () => assert.deepEqual(extraction.baseline, baseline));
+const scenarios = { baseline: evaluate(baseline), changed: evaluate({ ...baseline, delayHours: 48, accountActive: true }), missing: evaluate({ ...baseline, evidenceMissing: true }), negative: evaluate({ ...baseline, delayHours: -1 }) };
+fs.writeFileSync(path.join(__dirname, 'before-after-results.json'), JSON.stringify({ synthetic: true, assumption: '24h demo only; not law/company policy', scenarios }, null, 2));
+const qa = path.join(__dirname, 'verification');
+fs.mkdirSync(qa, { recursive: true });
+fs.writeFileSync(path.join(qa, 'checks.json'), JSON.stringify({ checkCount: result.length, checks: result, scenarios }, null, 2));
+console.log(JSON.stringify({ checkCount: result.length, checks: result, scenarios }, null, 2));

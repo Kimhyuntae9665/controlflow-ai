@@ -1,0 +1,5 @@
+# These exact bytes participate in the recorded source fingerprint.
+engine.py -text
+make_evidence.py -text
+*.pdf binary
+*.png binary

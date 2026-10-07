@@ -1,0 +1,19 @@
+{
+  "model": "qwen2.5:1.5b",
+  "created_at": "2026-10-07T02:54:13.176807Z",
+  "message": {
+    "role": "assistant",
+    "content": "{\n  \"approved_at\": {\n    \"quote\": \"The Approved date: 2026-09-19 is recorded in this packet.\",\n    \"value\": \"2026-09-19\"\n  },\n  \"approver\": {\n    \"quote\": \"The Approved date: 2026-09-19 is recorded in this packet.\",\n    \"value\": null\n  },\n  \"creator\": {\n    \"quote\": \"The Created by: U006 is recorded in this packet.\",\n    \"value\": \"U006\"\n  },\n  \"invoice\": {\n    \"quote\": \"The Invoice number: INV-006 is recorded in this packet.\",\n    \"value\": \"INV-006\"\n  },\n  \"invoice_amount\": {\n    \"quote\": \"The Invoice total: 4000.00 is recorded in this packet.\",\n    \"value\": \"4000.00\"\n  },\n  \"po_amount\": {\n    \"quote\": \"The PO total: 4000.00 is recorded in this packet.\",\n    \"value\": \"4000.00\"\n  },\n  \"posted_at\": {\n    \"quote\": \"The Posting date: 2026-09-20 is recorded in this packet.\",\n    \"value\": \"2026-09-20\"\n  },\n  \"receipt_amount\": {\n    \"quote\": \"The Receipt total: 4000.00 is recorded in this packet.\",\n    \"value\": \"4000.00\"\n  },\n  \"vendor\": {\n    \"quote\": \"The Vendor ID: V006 is recorded in this packet.\",\n    \"value\": \"V006\"\n  }\n}"
+  },
+  "done": true,
+  "done_reason": "stop",
+  "total_duration": 22857850500,
+  "load_duration": 63377100,
+  "prompt_eval_count": 817,
+  "prompt_eval_cached_count": 635,
+  "prompt_eval_duration": 1934899000,
+  "eval_count": 385,
+  "eval_duration": 20845362000,
+  "wall_seconds": 22.861,
+  "request_prompt_sha256": "2e8b9b8729aefa7057acd9d2af2a237caab2e1954c8bccae90b5d29246253f68"
+}

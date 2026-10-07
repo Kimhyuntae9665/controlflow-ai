@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+extensions/itgc-demo/verification/
+runs/*
+!runs/current.json
+!runs/20261007-115148-4819e1/
+!runs/20261007-115148-4819e1/**

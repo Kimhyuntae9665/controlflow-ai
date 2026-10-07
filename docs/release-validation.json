@@ -1,0 +1,14 @@
+{
+  "date_kst": "2026-10-07",
+  "tracked_files": 69,
+  "screenshots": 9,
+  "relative_links_validated": 29,
+  "sensitive_content_pattern_check": "PASS",
+  "fingerprinted_code_bytes_preserved_in_git": "PASS",
+  "source_and_result_fingerprints": "PASS",
+  "main_regression_tests": 15,
+  "itgc_checks": 8,
+  "windows_python_3_13_lock_resolution": "PASS",
+  "actual_new_inference_run_for_release": false,
+  "run_snapshot": "20261007-115148-4819e1"
+}

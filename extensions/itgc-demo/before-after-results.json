@@ -1,0 +1,94 @@
+{
+  "synthetic": true,
+  "assumption": "24h demo only; not law/company policy",
+  "scenarios": {
+    "baseline": {
+      "valid": true,
+      "input": {
+        "delayHours": 12,
+        "limitHours": 24,
+        "accountActive": false,
+        "evidenceMissing": false
+      },
+      "checks": [
+        {
+          "id": "I01",
+          "title": "계정 비활성화",
+          "status": "pass",
+          "reason": "계정이 비활성 상태입니다."
+        },
+        {
+          "id": "I02",
+          "title": "회수 기한 준수",
+          "status": "pass",
+          "reason": "12시간 ≤ 허용 24시간"
+        }
+      ],
+      "counts": {
+        "pass": 2,
+        "exception": 0,
+        "unknown": 0
+      }
+    },
+    "changed": {
+      "valid": true,
+      "input": {
+        "delayHours": 48,
+        "limitHours": 24,
+        "accountActive": true,
+        "evidenceMissing": false
+      },
+      "checks": [
+        {
+          "id": "I01",
+          "title": "계정 비활성화",
+          "status": "exception",
+          "reason": "퇴사자 계정이 활성 상태입니다."
+        },
+        {
+          "id": "I02",
+          "title": "회수 기한 준수",
+          "status": "exception",
+          "reason": "48시간 > 허용 24시간"
+        }
+      ],
+      "counts": {
+        "pass": 0,
+        "exception": 2,
+        "unknown": 0
+      }
+    },
+    "missing": {
+      "valid": true,
+      "input": {
+        "delayHours": 12,
+        "limitHours": 24,
+        "accountActive": false,
+        "evidenceMissing": true
+      },
+      "checks": [
+        {
+          "id": "I01",
+          "title": "계정 비활성화",
+          "status": "pass",
+          "reason": "계정이 비활성 상태입니다."
+        },
+        {
+          "id": "I02",
+          "title": "회수 기한 준수",
+          "status": "unknown",
+          "reason": "시각 증빙이 없어 지연시간을 확정할 수 없습니다."
+        }
+      ],
+      "counts": {
+        "pass": 1,
+        "exception": 0,
+        "unknown": 1
+      }
+    },
+    "negative": {
+      "valid": false,
+      "error": "회수 지연은 0~72시간의 숫자로 입력하세요."
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "source_text": "CONTROLFLOW / SYNTHETIC AP PACKET\nDocument AP004 | No client data | Currency KRW\nReceipt total: 3000.00\nInvoice total: 3000.00\nApproved date: 2026-09-18\nPosting date: 2026-09-20\nCreated by: U001\nApproved by: U004\nVendor ID: V004\nInvoice number: INV-004\nPO total: 3000.00\nGenerated test evidence. Missing fields are intentionally absent.",
+  "pages": [
+    {
+      "page": 1,
+      "mode": "scan",
+      "text": "CONTROLFLOW / SYNTHETIC AP PACKET\nDocument AP004 | No client data | Currency KRW\nReceipt total: 3000.00\nInvoice total: 3000.00\nApproved date: 2026-09-18\nPosting date: 2026-09-20\nCreated by: U001\nApproved by: U004\nVendor ID: V004\nInvoice number: INV-004\nPO total: 3000.00\nGenerated test evidence. Missing fields are intentionally absent.",
+      "boxes": [
+        {
+          "box": [
+            [
+              77.0,
+              70.0
+            ],
+            [
+              778.0,
+              70.0
+            ],
+            [
+              778.0,
+              103.0
+            ],
+            [
+              77.0,
+              103.0
+            ]
+          ],
+          "text": "CONTROLFLOW / SYNTHETIC AP PACKET",
+          "confidence": 0.98615
+        },
+        {
+          "box": [
+            [
+              75.0,
+              126.0
+            ],
+            [
+              573.0,
+              126.0
+            ],
+            [
+              573.0,
+              155.0
+            ],
+            [
+              75.0,
+              155.0
+            ]
+          ],
+          "text": "Document AP004 | No client data | Currency KRW",
+          "confidence": 0.98292
+        },
+        {
+          "box": [
+            [
+              84.0,
+              228.0
+            ],
+            [
+              343.0,
+              228.0
+            ],
+            [
+              343.0,
+              258.0
+            ],
+            [
+              84.0,
+              258.0
+            ]
+          ],
+          "text": "Receipt total: 3000.00",
+          "confidence": 0.99976
+        },
+        {
+          "box": [
+            [
+              85.0,
+              332.0
+            ],
+            [
+              338.0,
+              332.0
+            ],
+            [
+              338.0,
+              361.0
+            ],
+            [
+              85.0,
+              361.0
+            ]
+          ],
+          "text": "Invoice total: 3000.00",
+          "confidence": 0.99823
+        },
+        {
+          "box": [
+            [
+              85.0,
+              437.0
+            ],
+            [
+              407.0,
+              437.0
+            ],
+            [
+              407.0,
+              467.0
+            ],
+            [
+              85.0,
+              467.0
+            ]
+          ],
+          "text": "Approved date: 2026-09-18",
+          "confidence": 0.98044
+        },
+        {
+          "box": [
+            [
+              85.0,
+              540.0
+            ],
+            [
+              382.0,
+              540.0
+            ],
+            [
+              382.0,
+              570.0
+            ],
+            [
+              85.0,
+              570.0
+            ]
+          ],
+          "text": "Posting date: 2026-09-20",
+          "confidence": 0.98302
+        },
+        {
+          "box": [
+            [
+              85.0,
+              644.0
+            ],
+            [
+              292.0,
+              644.0
+            ],
+            [
+              292.0,
+              674.0
+            ],
+            [
+              85.0,
+              674.0
+            ]
+          ],
+          "text": "Created by: U001",
+          "confidence": 0.99516
+        },
+        {
+          "box": [
+            [
+              84.0,
+              748.0
+            ],
+            [
+              314.0,
+              748.0
+            ],
+            [
+              314.0,
+              780.0
+            ],
+            [
+              84.0,
+              780.0
+            ]
+          ],
+          "text": "Approved by: U004",
+          "confidence": 0.99941
+        },
+        {
+          "box": [
+            [
+              84.0,
+              853.0
+            ],
+            [
+              283.0,
+              853.0
+            ],
+            [
+              283.0,
+              880.0
+            ],
+            [
+              84.0,
+              880.0
+            ]
+          ],
+          "text": "Vendor ID: V004",
+          "confidence": 0.99887
+        },
+        {
+          "box": [
+            [
+              85.0,
+              957.0
+            ],
+            [
+              378.0,
+              957.0
+            ],
+            [
+              378.0,
+              984.0
+            ],
+            [
+              85.0,
+              984.0
+            ]
+          ],
+          "text": "Invoice number: INV-004",
+          "confidence": 0.98904
+        },
+        {
+          "box": [
+            [
+              83.0,
+              1059.0
+            ],
+            [
+              293.0,
+              1059.0
+            ],
+            [
+              293.0,
+              1089.0
+            ],
+            [
+              83.0,
+              1089.0
+            ]
+          ],
+          "text": "PO total: 3000.00",
+          "confidence": 0.97299
+        },
+        {
+          "box": [
+            [
+              84.0,
+              1435.0
+            ],
+            [
+              599.0,
+              1436.0
+            ],
+            [
+              599.0,
+              1460.0
+            ],
+            [
+              84.0,
+              1459.0
+            ]
+          ],
+          "text": "Generated test evidence. Missing fields are intentionally absent.",
+          "confidence": 0.99855
+        }
+      ]
+    }
+  ],
+  "mode": "scan",
+  "ocr_confidence": 0.9904,
+  "sha256": "434269d46e74121de7f0a450dded3b582c8259a24d7d1a623a038cc9b39dea25"
+}

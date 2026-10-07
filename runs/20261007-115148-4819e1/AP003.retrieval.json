@@ -1,0 +1,120 @@
+{
+  "sources": [
+    {
+      "id": "AP003:p1",
+      "text": "CONTROLFLOW / SYNTHETIC AP PACKET\nDocument AP003 | No client data | Currency KRW\nThe PO total: 2000.00 is recorded in this packet.\nThe Receipt total: 2000.00 is recorded in this packet.\nThe Invoice total: 2000.00 is recorded in this packet.\nThe Approved date: 2026-09-21 is recorded in this packet.\nThe Posting date: 2026-09-20 is recorded in this packet.\nThe Created by: U003 is recorded in this packet.\nThe Approved by: U004 is recorded in this packet.\nThe Vendor ID: V003 is recorded in this packet.\nThe Invoice number: INV-003 is recorded in this packet.\nGenerated test evidence. Missing fields are intentionally absent."
+    },
+    {
+      "id": "RCM.C01",
+      "text": "Approved date must be on or before Posting date. Date granularity only."
+    },
+    {
+      "id": "RCM.C02",
+      "text": "Maximum minus minimum among PO, receipt and invoice totals must be <= KRW 1.00; use Decimal."
+    },
+    {
+      "id": "RCM.C03",
+      "text": "Vendor ID plus invoice number must be unique in this six-document population. Strip and uppercase IDs."
+    },
+    {
+      "id": "RCM.C04",
+      "text": "Created by and Approved by IDs must differ. This is an AP record check, not an ERP authorization audit."
+    }
+  ],
+  "control_results": [
+    {
+      "id": "C01",
+      "name": "기장 전 승인",
+      "status": "exception",
+      "reason": "승인 2026-09-21 / 기장 2026-09-20 (날짜 단위)",
+      "evidence": [
+        {
+          "field": "approved_at",
+          "quote": "Approved date: 2026-09-21",
+          "page": 1
+        },
+        {
+          "field": "posted_at",
+          "quote": "Posting date: 2026-09-20",
+          "page": 1
+        }
+      ],
+      "source_ids": [
+        "AP003:p1",
+        "RCM.C01"
+      ]
+    },
+    {
+      "id": "C02",
+      "name": "3자 금액 대사",
+      "status": "pass",
+      "reason": "최대 금액 차이 0.00 KRW / 허용 1.00 KRW",
+      "evidence": [
+        {
+          "field": "po_amount",
+          "quote": "PO total: 2000.00",
+          "page": 1
+        },
+        {
+          "field": "receipt_amount",
+          "quote": "Receipt total: 2000.00",
+          "page": 1
+        },
+        {
+          "field": "invoice_amount",
+          "quote": "Invoice total: 2000.00",
+          "page": 1
+        }
+      ],
+      "source_ids": [
+        "AP003:p1",
+        "RCM.C02"
+      ]
+    },
+    {
+      "id": "C03",
+      "name": "거래처·송장 중복",
+      "status": "pass",
+      "reason": "동일 거래처·송장 조합: AP003",
+      "evidence": [
+        {
+          "field": "vendor",
+          "quote": "Vendor ID: V003",
+          "page": 1
+        },
+        {
+          "field": "invoice",
+          "quote": "Invoice number: INV-003",
+          "page": 1
+        }
+      ],
+      "source_ids": [
+        "AP003:p1",
+        "RCM.C03"
+      ]
+    },
+    {
+      "id": "C04",
+      "name": "작성·승인 분리",
+      "status": "pass",
+      "reason": "작성 U003 / 승인 U004",
+      "evidence": [
+        {
+          "field": "creator",
+          "quote": "Created by: U003",
+          "page": 1
+        },
+        {
+          "field": "approver",
+          "quote": "Approved by: U004",
+          "page": 1
+        }
+      ],
+      "source_ids": [
+        "AP003:p1",
+        "RCM.C04"
+      ]
+    }
+  ],
+  "required_status_sentence": "C01=exception; C02=pass; C03=pass; C04=pass. Human review required."
+}
