@@ -8,6 +8,8 @@ venv/
 .DS_Store
 Thumbs.db
 extensions/itgc-demo/verification/
+external-test-output*/
+tools/external_validation/export-isolation/
 runs/*
 !runs/current.json
 !runs/20261007-115148-4819e1/

@@ -1,0 +1,420 @@
+[
+  {
+    "id": "EXT01",
+    "filename": "EXT01.pdf",
+    "group": "external",
+    "source_pages": [
+      1,
+      2
+    ],
+    "transform": "page selection only; original content and annotations preserved",
+    "origin": {
+      "filename": "iras-self-billing.pdf",
+      "url": "https://www.iras.gov.sg/media/docs/default-source/uploadedfiles/pdf/self-billing---samples-of-tax-invoice5cc6.pdf",
+      "title": "IRAS 자가발행 송장 2종",
+      "kind": "영문 / SGD / 다중 페이지 표 / 공개 예시",
+      "pages": 2,
+      "sha256": "a705dbf4e7a709a96d2e577330b6ff6404b55d8ad54ea1eb04c60b674221f1cc",
+      "bytes": 94633
+    },
+    "input_sha256": "5e154f8de56163b63504ef2cab8d8e341d24ffc8c3d745582ca082bf461ce7c1",
+    "input_pages": 2,
+    "text_layer_chars": [
+      867,
+      1003
+    ],
+    "image_counts": [
+      1,
+      1
+    ]
+  },
+  {
+    "id": "EXT02",
+    "filename": "EXT02.pdf",
+    "group": "external",
+    "source_pages": [
+      1
+    ],
+    "transform": "page selection only; original content and annotations preserved",
+    "origin": {
+      "filename": "pdflib-invoice.pdf",
+      "url": "https://www.pdflib.com/fileadmin/cookbooks/PDFlib/results/invoice_pdfa2a.pdf",
+      "title": "PDFlib 판매 송장",
+      "kind": "영문 / EUR / 제품 표 / 개발사 공개 예시",
+      "pages": 1,
+      "sha256": "483d83c26546876510481afb2d56b0907075d7eb41859a171888e9dfe33e9569",
+      "bytes": 62362
+    },
+    "input_sha256": "3736ae617d6d51ee99955b5e90a712ac89c4a2e2582e9247f4a6e52a6c1d12e8",
+    "input_pages": 1,
+    "text_layer_chars": [
+      919
+    ],
+    "image_counts": [
+      1
+    ]
+  },
+  {
+    "id": "EXT03",
+    "filename": "EXT03.pdf",
+    "group": "external",
+    "source_pages": [
+      1
+    ],
+    "transform": "page selection only; original content and annotations preserved",
+    "origin": {
+      "filename": "apha-invoice.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/67aca1d62b19f423678324b9/guidance-sample-invoice-scrapie__1_.pdf",
+      "title": "영국 APHA 비용 청구 송장",
+      "kind": "영문 / GBP / 구매주문 참조 / 정부 예시",
+      "pages": 1,
+      "sha256": "6e2ccd3c419229b0e8b410026e8bd0eb7763866aff318a2e3506f7a2dfad43ad",
+      "bytes": 98141
+    },
+    "input_sha256": "1207c11ee2ebc0b0a59aa9978d933fe0386a7f49b60a230981f2b1f9d586bfde",
+    "input_pages": 1,
+    "text_layer_chars": [
+      1604
+    ],
+    "image_counts": [
+      2
+    ]
+  },
+  {
+    "id": "EXT04",
+    "filename": "EXT04.pdf",
+    "group": "external",
+    "source_pages": [
+      4
+    ],
+    "transform": "page selection only; original content and annotations preserved",
+    "origin": {
+      "filename": "canada-receipts.pdf",
+      "url": "https://www.ised-isde.canada.ca/site/measurement-canada/sites/default/files/attachments/2022/V-27-eng.pdf",
+      "title": "캐나다 연료 구매 영수증",
+      "kind": "영문 / 영수증 / 정부 예시",
+      "pages": 4,
+      "sha256": "795436f5b07108869844be9aac8b1116aa0b73c2d4857765e138513db2f2cc82",
+      "bytes": 76864
+    },
+    "input_sha256": "a489ee011cd6a40ad8601f6409c86dba5605bfbd3c80ebb2c8d233e2f9b26af4",
+    "input_pages": 1,
+    "text_layer_chars": [
+      1991
+    ],
+    "image_counts": [
+      0
+    ]
+  },
+  {
+    "id": "EXT05",
+    "filename": "EXT05.pdf",
+    "group": "external",
+    "source_pages": [
+      1,
+      2
+    ],
+    "transform": "page selection only; original content and annotations preserved",
+    "origin": {
+      "filename": "missouri-po.pdf",
+      "url": "https://samii.mo.gov/sites/g/files/zuston446/files/media/pdf/2022/07/SamplePurchaseOrder_9.22.16.pdf",
+      "title": "미주리 구매주문서",
+      "kind": "영문 / 구매주문서 / 주 정부 예시",
+      "pages": 2,
+      "sha256": "60ae964b8d1d8f7810e8f9f6b8fd89bc03d0f0f1814040b4eaafd81c3dc7d69e",
+      "bytes": 94484
+    },
+    "input_sha256": "66b29608796e1c11eb8ef1dde592449e1c6b9aa198ec34a1c9aa5bc313d599c0",
+    "input_pages": 2,
+    "text_layer_chars": [
+      1220,
+      580
+    ],
+    "image_counts": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "EXT06",
+    "filename": "EXT06.pdf",
+    "group": "external",
+    "source_pages": [
+      97
+    ],
+    "transform": "page selection only; original content and annotations preserved",
+    "origin": {
+      "filename": "nts-guide.pdf",
+      "url": "https://www.nts.go.kr/comm/nttFileDownload.do?fileKey=e3ba086209818a4543d9eef7fd1c5d97",
+      "title": "국세청 전자세금계산서 예시",
+      "kind": "한국어 / 전자세금계산서 안내서의 발급 화면",
+      "pages": 387,
+      "sha256": "8dc949a9543c25ac7839f2ea50248c90b49314c40b9656c61423cb184fc7e238",
+      "bytes": 54523843
+    },
+    "input_sha256": "4c3e046a20bdd4837173a93e0218f1adcfc38ef40723e4236b4354882ce4f7ac",
+    "input_pages": 1,
+    "text_layer_chars": [
+      531
+    ],
+    "image_counts": [
+      3
+    ]
+  },
+  {
+    "id": "EXT07",
+    "filename": "EXT07.pdf",
+    "group": "external",
+    "source_pages": [
+      25,
+      26
+    ],
+    "transform": "page selection only; original content and annotations preserved",
+    "origin": {
+      "filename": "revenue-bills.pdf",
+      "url": "https://www.revenue.ie/en/starting-a-business/documents/revenue-guidance-understanding-your-bill.pdf",
+      "title": "아일랜드 에너지 청구서",
+      "kind": "영문 / 이미지·텍스트 혼합 / 공급사 제공 공개 예시",
+      "pages": 89,
+      "sha256": "994ae990605eac6fa47425a69f00fdd79a4fe72cc51c2937b5dc3635aeacbf4e",
+      "bytes": 7032207
+    },
+    "input_sha256": "529546eb03601bc54882ac2aa57433c0fa0a947729072a2e4017071186a3c24d",
+    "input_pages": 2,
+    "text_layer_chars": [
+      860,
+      64
+    ],
+    "image_counts": [
+      1,
+      1
+    ]
+  },
+  {
+    "id": "EXT08",
+    "filename": "EXT08.pdf",
+    "group": "external",
+    "source_pages": [
+      1
+    ],
+    "transform": "page selection only; original content and annotations preserved",
+    "origin": {
+      "filename": "dhl-blank.pdf",
+      "url": "https://www.dhl.com/content/dam/dhl/local/gb/dhl-global-forwarding/documents/pdf/gb-dgf-commercial-invoice-template.pdf",
+      "title": "DHL 상업송장 빈 양식",
+      "kind": "영문 / 빈 양식 / PDF 문자 인코딩 점검",
+      "pages": 1,
+      "sha256": "9166ad6e2a1e64fb081c0f6a27f47fab82c31866c591543e40f1eda4d650ae36",
+      "bytes": 42242
+    },
+    "input_sha256": "99214c34ad6d2aa7bc1789c9ef85313f9649181b3a112d0b52d3bf76e9a66902",
+    "input_pages": 1,
+    "text_layer_chars": [
+      1055
+    ],
+    "image_counts": [
+      0
+    ]
+  },
+  {
+    "id": "OCR01",
+    "filename": "OCR01.pdf",
+    "group": "derived_scan",
+    "source_pages": [
+      1,
+      2
+    ],
+    "transform": "200% rasterization of the selected pages, no text layer; not an independent public document",
+    "origin": {
+      "filename": "iras-self-billing.pdf",
+      "url": "https://www.iras.gov.sg/media/docs/default-source/uploadedfiles/pdf/self-billing---samples-of-tax-invoice5cc6.pdf",
+      "title": "IRAS 자가발행 송장 2종",
+      "kind": "영문 / SGD / 다중 페이지 표 / 공개 예시",
+      "pages": 2,
+      "sha256": "a705dbf4e7a709a96d2e577330b6ff6404b55d8ad54ea1eb04c60b674221f1cc",
+      "bytes": 94633
+    },
+    "parent": "EXT01",
+    "input_sha256": "fa7ce77e9b1aacd15ff9b615ddd4592674c4a47aa48e6c2a460dd3a0b147f549",
+    "input_pages": 2,
+    "text_layer_chars": [
+      0,
+      0
+    ],
+    "image_counts": [
+      1,
+      1
+    ]
+  },
+  {
+    "id": "OCR02",
+    "filename": "OCR02.pdf",
+    "group": "derived_scan",
+    "source_pages": [
+      97
+    ],
+    "transform": "200% rasterization of the selected pages, no text layer; not an independent public document",
+    "origin": {
+      "filename": "nts-guide.pdf",
+      "url": "https://www.nts.go.kr/comm/nttFileDownload.do?fileKey=e3ba086209818a4543d9eef7fd1c5d97",
+      "title": "국세청 전자세금계산서 예시",
+      "kind": "한국어 / 전자세금계산서 안내서의 발급 화면",
+      "pages": 387,
+      "sha256": "8dc949a9543c25ac7839f2ea50248c90b49314c40b9656c61423cb184fc7e238",
+      "bytes": 54523843
+    },
+    "parent": "EXT06",
+    "input_sha256": "8d7c095091ef1efffb8dea3a0c98eb99bd27292c090e8bf0385651b4b436137f",
+    "input_pages": 1,
+    "text_layer_chars": [
+      0
+    ],
+    "image_counts": [
+      1
+    ]
+  },
+  {
+    "id": "AP001",
+    "filename": "AP001.pdf",
+    "group": "baseline",
+    "source_pages": [
+      1
+    ],
+    "transform": "original fixture unchanged",
+    "origin": {
+      "title": "AP001 기존 합성 증빙",
+      "kind": "기존 6문서 합성 기준점",
+      "url": null,
+      "filename": "AP001.pdf",
+      "sha256": "733a98703c308b2ea05629428da2eb5a38d2e8f1d4fa9172c6dc4eb6768c870d"
+    },
+    "input_sha256": "733a98703c308b2ea05629428da2eb5a38d2e8f1d4fa9172c6dc4eb6768c870d",
+    "input_pages": 1,
+    "text_layer_chars": [
+      336
+    ],
+    "image_counts": [
+      0
+    ]
+  },
+  {
+    "id": "AP002",
+    "filename": "AP002.pdf",
+    "group": "baseline",
+    "source_pages": [
+      1
+    ],
+    "transform": "original fixture unchanged",
+    "origin": {
+      "title": "AP002 기존 합성 증빙",
+      "kind": "기존 6문서 합성 기준점",
+      "url": null,
+      "filename": "AP002.pdf",
+      "sha256": "d164456c4c64b5b40d11c7d4b1690714f0e02d27a941f5c7b21db0631c2f4e45"
+    },
+    "input_sha256": "d164456c4c64b5b40d11c7d4b1690714f0e02d27a941f5c7b21db0631c2f4e45",
+    "input_pages": 1,
+    "text_layer_chars": [
+      0
+    ],
+    "image_counts": [
+      1
+    ]
+  },
+  {
+    "id": "AP003",
+    "filename": "AP003.pdf",
+    "group": "baseline",
+    "source_pages": [
+      1
+    ],
+    "transform": "original fixture unchanged",
+    "origin": {
+      "title": "AP003 기존 합성 증빙",
+      "kind": "기존 6문서 합성 기준점",
+      "url": null,
+      "filename": "AP003.pdf",
+      "sha256": "62a99a9787479732827f8aa14f68f11ca65fab523ff55450ae14d95a1f7272a8"
+    },
+    "input_sha256": "62a99a9787479732827f8aa14f68f11ca65fab523ff55450ae14d95a1f7272a8",
+    "input_pages": 1,
+    "text_layer_chars": [
+      624
+    ],
+    "image_counts": [
+      0
+    ]
+  },
+  {
+    "id": "AP004",
+    "filename": "AP004.pdf",
+    "group": "baseline",
+    "source_pages": [
+      1
+    ],
+    "transform": "original fixture unchanged",
+    "origin": {
+      "title": "AP004 기존 합성 증빙",
+      "kind": "기존 6문서 합성 기준점",
+      "url": null,
+      "filename": "AP004.pdf",
+      "sha256": "434269d46e74121de7f0a450dded3b582c8259a24d7d1a623a038cc9b39dea25"
+    },
+    "input_sha256": "434269d46e74121de7f0a450dded3b582c8259a24d7d1a623a038cc9b39dea25",
+    "input_pages": 1,
+    "text_layer_chars": [
+      0
+    ],
+    "image_counts": [
+      1
+    ]
+  },
+  {
+    "id": "AP005",
+    "filename": "AP005.pdf",
+    "group": "baseline",
+    "source_pages": [
+      1
+    ],
+    "transform": "original fixture unchanged",
+    "origin": {
+      "title": "AP005 기존 합성 증빙",
+      "kind": "기존 6문서 합성 기준점",
+      "url": null,
+      "filename": "AP005.pdf",
+      "sha256": "68f3c1ce6f1a53ebd6334101dc1c881e817da505292dd0f64e994b11782e16ad"
+    },
+    "input_sha256": "68f3c1ce6f1a53ebd6334101dc1c881e817da505292dd0f64e994b11782e16ad",
+    "input_pages": 1,
+    "text_layer_chars": [
+      336
+    ],
+    "image_counts": [
+      0
+    ]
+  },
+  {
+    "id": "AP006",
+    "filename": "AP006.pdf",
+    "group": "baseline",
+    "source_pages": [
+      1
+    ],
+    "transform": "original fixture unchanged",
+    "origin": {
+      "title": "AP006 기존 합성 증빙",
+      "kind": "기존 6문서 합성 기준점",
+      "url": null,
+      "filename": "AP006.pdf",
+      "sha256": "0cd738ce4f8c0b5f1c3f459e7b1692518532837a126ff0e39dbb8f88fdfe5719"
+    },
+    "input_sha256": "0cd738ce4f8c0b5f1c3f459e7b1692518532837a126ff0e39dbb8f88fdfe5719",
+    "input_pages": 1,
+    "text_layer_chars": [
+      0
+    ],
+    "image_counts": [
+      1
+    ]
+  }
+]

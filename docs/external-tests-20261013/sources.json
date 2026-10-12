@@ -1,0 +1,74 @@
+[
+  {
+    "filename": "dhl-blank.pdf",
+    "url": "https://www.dhl.com/content/dam/dhl/local/gb/dhl-global-forwarding/documents/pdf/gb-dgf-commercial-invoice-template.pdf",
+    "title": "DHL 상업송장 빈 양식",
+    "kind": "영문 / 빈 양식 / PDF 문자 인코딩 점검",
+    "pages": 1,
+    "sha256": "9166ad6e2a1e64fb081c0f6a27f47fab82c31866c591543e40f1eda4d650ae36",
+    "bytes": 42242
+  },
+  {
+    "filename": "iras-self-billing.pdf",
+    "url": "https://www.iras.gov.sg/media/docs/default-source/uploadedfiles/pdf/self-billing---samples-of-tax-invoice5cc6.pdf",
+    "title": "IRAS 자가발행 송장 2종",
+    "kind": "영문 / SGD / 다중 페이지 표 / 공개 예시",
+    "pages": 2,
+    "sha256": "a705dbf4e7a709a96d2e577330b6ff6404b55d8ad54ea1eb04c60b674221f1cc",
+    "bytes": 94633
+  },
+  {
+    "filename": "pdflib-invoice.pdf",
+    "url": "https://www.pdflib.com/fileadmin/cookbooks/PDFlib/results/invoice_pdfa2a.pdf",
+    "title": "PDFlib 판매 송장",
+    "kind": "영문 / EUR / 제품 표 / 개발사 공개 예시",
+    "pages": 1,
+    "sha256": "483d83c26546876510481afb2d56b0907075d7eb41859a171888e9dfe33e9569",
+    "bytes": 62362
+  },
+  {
+    "filename": "apha-invoice.pdf",
+    "url": "https://assets.publishing.service.gov.uk/media/67aca1d62b19f423678324b9/guidance-sample-invoice-scrapie__1_.pdf",
+    "title": "영국 APHA 비용 청구 송장",
+    "kind": "영문 / GBP / 구매주문 참조 / 정부 예시",
+    "pages": 1,
+    "sha256": "6e2ccd3c419229b0e8b410026e8bd0eb7763866aff318a2e3506f7a2dfad43ad",
+    "bytes": 98141
+  },
+  {
+    "filename": "canada-receipts.pdf",
+    "url": "https://www.ised-isde.canada.ca/site/measurement-canada/sites/default/files/attachments/2022/V-27-eng.pdf",
+    "title": "캐나다 연료 구매 영수증",
+    "kind": "영문 / 영수증 / 정부 예시",
+    "pages": 4,
+    "sha256": "795436f5b07108869844be9aac8b1116aa0b73c2d4857765e138513db2f2cc82",
+    "bytes": 76864
+  },
+  {
+    "filename": "missouri-po.pdf",
+    "url": "https://samii.mo.gov/sites/g/files/zuston446/files/media/pdf/2022/07/SamplePurchaseOrder_9.22.16.pdf",
+    "title": "미주리 구매주문서",
+    "kind": "영문 / 구매주문서 / 주 정부 예시",
+    "pages": 2,
+    "sha256": "60ae964b8d1d8f7810e8f9f6b8fd89bc03d0f0f1814040b4eaafd81c3dc7d69e",
+    "bytes": 94484
+  },
+  {
+    "filename": "revenue-bills.pdf",
+    "url": "https://www.revenue.ie/en/starting-a-business/documents/revenue-guidance-understanding-your-bill.pdf",
+    "title": "아일랜드 에너지 청구서",
+    "kind": "영문 / 이미지·텍스트 혼합 / 공급사 제공 공개 예시",
+    "pages": 89,
+    "sha256": "994ae990605eac6fa47425a69f00fdd79a4fe72cc51c2937b5dc3635aeacbf4e",
+    "bytes": 7032207
+  },
+  {
+    "filename": "nts-guide.pdf",
+    "url": "https://www.nts.go.kr/comm/nttFileDownload.do?fileKey=e3ba086209818a4543d9eef7fd1c5d97",
+    "title": "국세청 전자세금계산서 예시",
+    "kind": "한국어 / 전자세금계산서 안내서의 발급 화면",
+    "pages": 387,
+    "sha256": "8dc949a9543c25ac7839f2ea50248c90b49314c40b9656c61423cb184fc7e238",
+    "bytes": 54523843
+  }
+]

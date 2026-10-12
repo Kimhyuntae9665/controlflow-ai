@@ -1,0 +1,78 @@
+{
+  "public_sanitization_pass": true,
+  "original_engine_unchanged": true,
+  "completed_documents": 15,
+  "failed_documents": 1,
+  "model_responses": 41,
+  "model_failures": 2,
+  "model_requests": 43,
+  "external_export_blocks": 9,
+  "baseline_export_pass": true,
+  "baseline_export_population": 6,
+  "public_scripts_syntax_and_root_paths_pass": true,
+  "screenshots": [
+    {
+      "file": "01-private-invoice.png",
+      "content_unchanged": true,
+      "outer_border_px": 3,
+      "outer_padding_px": 9,
+      "sha256": "c3ec22047b54a82736bb60d408cecfbf850a0be94edc0ab420a4b10a2fdecbb2"
+    },
+    {
+      "file": "01-overview.png",
+      "content_unchanged": true,
+      "outer_border_px": 3,
+      "outer_padding_px": 9,
+      "sha256": "0fd6c7158a42749a359c0a609452ee2ee3724de7c8253eae44be3bcb5f856acf"
+    },
+    {
+      "file": "02-private-model-failure.png",
+      "content_unchanged": true,
+      "outer_border_px": 3,
+      "outer_padding_px": 9,
+      "sha256": "c372e96d4b2788078bf3a70c9bff5d994cba182e1b71feab61001c30480fa279"
+    },
+    {
+      "file": "02-invoice-number.png",
+      "content_unchanged": true,
+      "outer_border_px": 3,
+      "outer_padding_px": 9,
+      "sha256": "bc75a4cf5f2ce7a38528dadb77d685aa6f1d0737e372d97b6a42bca70fa9999b"
+    },
+    {
+      "file": "03-private-korean-ocr.png",
+      "content_unchanged": true,
+      "outer_border_px": 3,
+      "outer_padding_px": 9,
+      "sha256": "fd0e6db258d4ee85b858a98ef46d1274b5e602f4ceaabe82f695843e09aa18d2"
+    },
+    {
+      "file": "03-korean-ocr.png",
+      "content_unchanged": true,
+      "outer_border_px": 3,
+      "outer_padding_px": 9,
+      "sha256": "1b3d4ea522fdf3aa1ab8e71c2e467d295b20344cde8b13844d8f22f1fb135362"
+    },
+    {
+      "file": "04-private-baseline.png",
+      "content_unchanged": true,
+      "outer_border_px": 3,
+      "outer_padding_px": 9,
+      "sha256": "733eccaa9a711eff2d730c54e298679d58b5e80ca940e7bcd1e0cf2ac6b7a39f"
+    },
+    {
+      "file": "04-model-failure.png",
+      "content_unchanged": true,
+      "outer_border_px": 3,
+      "outer_padding_px": 9,
+      "sha256": "689b2cae0167344bd40088e23968e5d70667e6da810912cc4009d99be42565c1"
+    },
+    {
+      "file": "05-baseline.png",
+      "content_unchanged": true,
+      "outer_border_px": 3,
+      "outer_padding_px": 9,
+      "sha256": "733eccaa9a711eff2d730c54e298679d58b5e80ca940e7bcd1e0cf2ac6b7a39f"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+﻿id,group,title,source_mode,supported_fields,non_null_model_fields,C01,C02,C03,C04,draft_verified,evidence_block,extract_seconds,attempt_count
+EXT01,external,IRAS 자가발행 송장 2종,text/text,0,8,unknown,unknown,unknown,unknown,True,True,59.221,2
+EXT02,external,PDFlib 판매 송장,text,0,9,unknown,unknown,unknown,unknown,True,True,44.191,2
+EXT03,external,영국 APHA 비용 청구 송장,text,0,7,unknown,unknown,unknown,unknown,True,True,50.372,2
+EXT04,external,캐나다 연료 구매 영수증,text,0,8,unknown,unknown,unknown,unknown,True,True,47.84,2
+EXT05,external,미주리 구매주문서,text/text,0,8,unknown,unknown,unknown,unknown,True,True,62.439,2
+EXT06,external,국세청 전자세금계산서 예시,text,0,0,unknown,unknown,unknown,unknown,True,True,99.9,2
+EXT08,external,DHL 상업송장 빈 양식,text,0,8,unknown,unknown,unknown,unknown,True,True,50.022,2
+OCR01,derived_scan,IRAS 자가발행 송장 2종,scan/scan,0,8,unknown,unknown,unknown,unknown,True,True,66.038,2
+OCR02,derived_scan,국세청 전자세금계산서 예시,scan,0,9,unknown,unknown,unknown,unknown,True,True,76.829,2
+AP001,baseline,AP001 기존 합성 증빙,text,9,9,pass,pass,pass,pass,True,False,20.72,1
+AP002,baseline,AP002 기존 합성 증빙,scan,9,9,pass,exception,pass,pass,True,False,20.907,1
+AP003,baseline,AP003 기존 합성 증빙,text,9,9,exception,pass,pass,pass,True,False,19.634,1
+AP004,baseline,AP004 기존 합성 증빙,scan,9,9,pass,pass,exception,pass,True,False,20.032,1
+AP005,baseline,AP005 기존 합성 증빙,text,9,9,pass,pass,exception,exception,True,False,19.513,1
+AP006,baseline,AP006 기존 합성 증빙,scan,8,8,pass,pass,pass,unknown,True,True,29.887,1
+EXT07,external,아일랜드 에너지 청구서,text/text,not_run,not_run,not_run,not_run,not_run,not_run,not_run,no_completed_run,see_failure_record,4

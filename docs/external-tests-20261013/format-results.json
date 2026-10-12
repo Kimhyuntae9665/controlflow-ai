@@ -1,0 +1,25 @@
+[
+  {
+    "filename": "invoice-sample.xml",
+    "url": "https://sdk.myinvois.hasil.gov.my/files/sdksamples/1.0-Invoice-Sample.xml",
+    "sha256": "2ef20ebfe8a20f8d987d218a12dc98daa31372daa2448ab077b6d11d17a548fe",
+    "model_calls": 0,
+    "accepted": true,
+    "error": null,
+    "expected_rejection": false,
+    "mode": "text",
+    "pages": 1,
+    "text_chars": 1010,
+    "scope": "MuPDF document opening only; no UBL schema, signature, semantic mapping or model extraction validation"
+  },
+  {
+    "filename": "credit-note-sample.json",
+    "url": "https://sdk.myinvois.hasil.gov.my/files/sdksamples/1.0-Credit-Note-Sample.json",
+    "sha256": "41b5ea66a3e0671c80d73e8a67bebed3a0a9e0c3f3eb9dded7f027ea82bef710",
+    "model_calls": 0,
+    "accepted": false,
+    "error_type": "FileDataError",
+    "error": "MuPDF FileDataError while opening the downloaded JSON input.",
+    "expected_rejection": true
+  }
+]

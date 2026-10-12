@@ -1,0 +1,77 @@
+{
+  "isolation": "same Engine.review/export with group-separated test-only ROOTs and fingerprints; original runs are untouched",
+  "external": [
+    {
+      "id": "EXT01",
+      "actual_export_blocked": true,
+      "code": "export_blocked",
+      "message": "조서 내보내기 차단: EXT01 사람 검토 미완료; EXT01 미확인 통제; EXT01 원문 근거 없는 필드"
+    },
+    {
+      "id": "EXT02",
+      "actual_export_blocked": true,
+      "code": "export_blocked",
+      "message": "조서 내보내기 차단: EXT02 사람 검토 미완료; EXT02 미확인 통제; EXT02 원문 근거 없는 필드"
+    },
+    {
+      "id": "EXT03",
+      "actual_export_blocked": true,
+      "code": "export_blocked",
+      "message": "조서 내보내기 차단: EXT03 사람 검토 미완료; EXT03 미확인 통제; EXT03 원문 근거 없는 필드"
+    },
+    {
+      "id": "EXT04",
+      "actual_export_blocked": true,
+      "code": "export_blocked",
+      "message": "조서 내보내기 차단: EXT04 사람 검토 미완료; EXT04 미확인 통제; EXT04 원문 근거 없는 필드"
+    },
+    {
+      "id": "EXT05",
+      "actual_export_blocked": true,
+      "code": "export_blocked",
+      "message": "조서 내보내기 차단: EXT05 사람 검토 미완료; EXT05 미확인 통제; EXT05 원문 근거 없는 필드"
+    },
+    {
+      "id": "EXT06",
+      "actual_export_blocked": true,
+      "code": "export_blocked",
+      "message": "조서 내보내기 차단: EXT06 사람 검토 미완료; EXT06 미확인 통제; EXT06 원문 근거 없는 필드"
+    },
+    {
+      "id": "EXT08",
+      "actual_export_blocked": true,
+      "code": "export_blocked",
+      "message": "조서 내보내기 차단: EXT08 사람 검토 미완료; EXT08 미확인 통제; EXT08 원문 근거 없는 필드"
+    },
+    {
+      "id": "OCR01",
+      "actual_export_blocked": true,
+      "code": "export_blocked",
+      "message": "조서 내보내기 차단: OCR01 사람 검토 미완료; OCR01 미확인 통제; OCR01 원문 근거 없는 필드"
+    },
+    {
+      "id": "OCR02",
+      "actual_export_blocked": true,
+      "code": "export_blocked",
+      "message": "조서 내보내기 차단: OCR02 사람 검토 미완료; OCR02 미확인 통제; OCR02 원문 근거 없는 필드"
+    }
+  ],
+  "baseline": {
+    "id": "AP002",
+    "attempted": true,
+    "export_succeeded": true,
+    "population_document_count": 6,
+    "response": {
+      "url": "/api/export/latest.json",
+      "run_id": "external-test-20261013-baseline-b14875d6"
+    }
+  },
+  "execution_failures": [
+    {
+      "id": "EXT07",
+      "export_attempted": false,
+      "reason": "No completed extraction run because the model request and explicit retest failed",
+      "model_error": "{\"error\":\"prediction aborted, token repeat limit reached\"}"
+    }
+  ]
+}
